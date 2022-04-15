@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
     <div>
       
-      <h1 className={styles.title}>Trying something out</h1>
+      <h1 className={styles.title}>Random User Details</h1>
       <p className={styles.text}>
         Consectetur deserunt ex laborum tempor enim nisi est. Esse non ullamco
         anim eiusmod. Officia adipisicing dolore minim nisi sunt aliquip do
@@ -23,7 +23,7 @@ export default function Home() {
         nisi sunt aliquip do cillum pariatur fugiat.
       </p>
       <Link href="/celebs">
-        <a className={styles.btn}>See Celebrities list</a>
+        <a className={styles.btn}>See Users</a>
       </Link>
      
     </div>
