@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -20,6 +21,9 @@ export default function Home() {
         est. Esse non ullamco anim eiusmod. Officia adipisicing dolore minim
         nisi sunt aliquip do cillum pariatur fugiat.
       </p>
+      <Link href="/celebs">
+        <a>See Celebrities list</a>
+      </Link>
       <Footer />
     </div>
   )
