@@ -20,7 +20,7 @@ const Navbar = () => {
             <a>About</a>
           </Link>
           <Link href="/celebs"> 
-            <a>Celeb list</a>
+            <a>Users</a>
           </Link>
     </nav>
   );
