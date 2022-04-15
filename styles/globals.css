@@ -44,3 +44,8 @@ footer {
   color: #4979ff;
   text-decoration: none;
 }
+
+.celeb-details{
+  display: block;
+  text-align: center;
+}
