@@ -7,11 +7,12 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Celebrities</title>
         <meta name="description" content="Celebrity list" />
       </Head>
+    <div>
       
       <h1 className={styles.title}>Trying something out</h1>
       <p className={styles.text}>
@@ -26,5 +27,6 @@ export default function Home() {
       </Link>
      
     </div>
+    </>
   )
 }
