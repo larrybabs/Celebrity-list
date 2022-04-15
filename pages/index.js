@@ -12,9 +12,9 @@ export default function Home() {
         <title>Celebrities</title>
         <meta name="description" content="Celebrity list" />
       </Head>
-      < Navbar />
-      <h1>Trying something out</h1>
-      <p>
+      
+      <h1 className={styles.title}>Trying something out</h1>
+      <p className={styles.text}>
         Consectetur deserunt ex laborum tempor enim nisi est. Esse non ullamco
         anim eiusmod. Officia adipisicing dolore minim nisi sunt aliquip do
         cillum pariatur fugiat. Consectetur deserunt ex laborum tempor enim nisi
@@ -22,9 +22,9 @@ export default function Home() {
         nisi sunt aliquip do cillum pariatur fugiat.
       </p>
       <Link href="/celebs">
-        <a>See Celebrities list</a>
+        <a className={styles.btn}>See Celebrities list</a>
       </Link>
-      <Footer />
+     
     </div>
   )
 }
